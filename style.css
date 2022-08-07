@@ -1,0 +1,102 @@
+body {
+    font-family: arial;
+  }
+  
+  .collapsed .fa {
+    transform: rotate(180deg);
+    color: #007bff;
+  }
+  
+  .mystyle {
+    color: #ff0066;
+  }
+  
+  #notifyHeader {
+    color: #007bff;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #notifyContent {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .fa {
+    transition: 0.2s transform ease-in-out;
+  }
+  
+  .card-header {
+    background: #ffffff;
+  }
+  
+  span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card {
+    background: #ffffff;
+  }
+  
+  div.a {
+    margin: 0 auto;
+  }
+  
+  .table {
+    text-align: center;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-img-top{
+      height: 700px;
+  }
+  #messageTitle:before,
+  #messageTitle:after {
+    content: " - ";
+    color: #ff0066;
+    font-weight: 800;
+  }
+  
+  #followingTitle:before,
+  #followingTitle:after {
+    font-weight: 800;
+    content: " - ";
+    color: #99ccff;
+  }
+  
+  #followTitle:before,
+  #followTitle:after {
+    font-weight: 800;
+    content: " - ";
+    color: #ff884d;
+  }
+  
+  .imageVacation {
+    width: 46%;
+    height: 300px;
+    float: left;
+    margin: 1.66%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .imageVacation {
+      width: 96%;
+      height: 300px;
+      float: left;
+      margin: 1.66%;
+    }
+  }
+  
+  footer {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
